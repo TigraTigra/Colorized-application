@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Colorized application
 //
-//  Created by DC on 09.05.2023.
+//  Created by Pavel Mazurenko on 09.05.2023.
 //
 
 import UIKit

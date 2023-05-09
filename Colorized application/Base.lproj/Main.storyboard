@@ -86,7 +86,7 @@
                                                 <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
                                                 <color key="thumbTintColor" systemColor="separatorColor"/>
                                                 <connections>
-                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="7VT-7P-rf3"/>
+                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="5cb-jw-6KP"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="p4X-Pj-GfD">
@@ -94,7 +94,7 @@
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                                 <color key="thumbTintColor" systemColor="separatorColor"/>
                                                 <connections>
-                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="Grb-hQ-kJ1"/>
+                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="bOC-3W-dt8"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HVV-Uj-EeN">
@@ -102,7 +102,7 @@
                                                 <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
                                                 <color key="thumbTintColor" systemColor="separatorColor"/>
                                                 <connections>
-                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="b9o-U9-FFY"/>
+                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="WtE-wN-ETa"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -124,12 +124,12 @@
                     </view>
                     <connections>
                         <outlet property="blueLabel" destination="CzI-tc-doh" id="KDQ-m6-hPD"/>
-                        <outlet property="blueSlider" destination="HVV-Uj-EeN" id="IcK-Cn-x2v"/>
+                        <outlet property="blueSlider" destination="HVV-Uj-EeN" id="BI1-Mt-h6G"/>
                         <outlet property="colorView" destination="aUh-AP-PF4" id="2Ua-GL-CYW"/>
                         <outlet property="greenLabel" destination="lLs-dA-1Ki" id="K2i-Tu-Ew6"/>
-                        <outlet property="greenSlider" destination="p4X-Pj-GfD" id="klB-6Z-c6p"/>
+                        <outlet property="greenSlider" destination="p4X-Pj-GfD" id="MzJ-yU-eAC"/>
                         <outlet property="redLabel" destination="Bop-CT-K1u" id="Crh-yK-VPE"/>
-                        <outlet property="redSlider" destination="mTw-rl-YWq" id="g7P-yO-aGo"/>
+                        <outlet property="redSlider" destination="mTw-rl-YWq" id="cwX-gY-kOp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
